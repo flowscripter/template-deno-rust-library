@@ -1,0 +1,16 @@
+[package]
+name = "flowscripter_template_deno_rust_library"
+version = "0.1.0"
+edition = "2021"
+description = "Project template for a Rust library with Deno FFI bindings."
+homepage = "https://github.com/flowscripter"
+license = "MIT"
+repository = "https://github.com/flowscripter/template-deno-rust-library"
+
+[lib]
+crate-type = ["cdylib","lib"]
+
+[dependencies]
+deno_bindgen = "0.4.1"
+serde = { version = "1.0.136", features = ["derive"] }
+flowscripter_template_rust_library = "1.0.0"
