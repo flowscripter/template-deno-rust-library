@@ -1,4 +1,4 @@
 /target
 /bindings.json
-/node_modules/
 /.releaserc
+/node_modules/
