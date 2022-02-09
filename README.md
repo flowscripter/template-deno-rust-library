@@ -1,5 +1,12 @@
 # template-deno-rust-library
 
+[![version](https://img.shields.io/github/v/release/flowscripter/template-deno-rust-library?sort=semver)](https://github.com/flowscripter/template-deno-rust-library/releases)
+[![build](https://img.shields.io/github/workflow/status/flowscripter/template-deno-rust-library/release-deno-rust-library)](https://github.com/flowscripter/template-deno-rust-library/actions/workflows/release-deno-rust-library.yml)
+[![coverage](https://codecov.io/gh/flowscripter/template-deno-rust-library/branch/main/graph/badge.svg?token=EMFT2938ZF)](https://codecov.io/gh/flowscripter/template-deno-rust-library)
+[![dependencies](https://deps.rs/repo/github/flowscripter/template-deno-rust-library/status.svg)](https://deps.rs/crate/flowscripter_template_deno_rust_library)
+[![rust doc](https://img.shields.io/docsrs/flowscripter_template_deno_rust_library)](https://docs.rs/flowscripter_template_deno_rust_library)
+[![license: MIT](https://img.shields.io/github/license/flowscripter/template-deno-rust-library)](https://github.com/flowscripter/template-deno-rust-library/blob/main/LICENSE)
+
 > Project template for a Rust library with Deno FFI bindings.
 
 ## Usage
