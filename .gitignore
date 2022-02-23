@@ -2,3 +2,4 @@
 /bindings.json
 /.releaserc
 /node_modules/
+/coverage/
