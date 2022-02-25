@@ -1,4 +1,4 @@
-name: check-deno-dependencies
+name: check-rust-dependencies
 on:
   schedule:
     - cron:  '0 0 * * *'
@@ -12,11 +12,21 @@ jobs:
         uses: denoland/setup-deno@v1
         with:
           deno-version: v1.x
-      - name: Update dependencies
+      - name: Build
+        run: |
+          deno install -Afq -n deno_bindgen https://deno.land/x/deno_bindgen/cli.ts
+          deno_bindgen
+      - name: Update Deno dependencies
         run: |
           deno install -A -f -n udd https://deno.land/x/udd@0.5.0/main.ts
           udd deps.ts --test="deno test -A --unstable"
           udd tests/test_deps.ts --test="deno test -A --unstable"
+      - name: Setup Cargo Edit
+        run: cargo install cargo-edit
+      - name: Update Rust dependencies
+        run: |
+          cargo update
+          cargo upgrade --to-lockfile
       - name: Create PR
         uses: peter-evans/create-pull-request@v3
         with:

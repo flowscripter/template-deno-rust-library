@@ -1,6 +1,6 @@
-//! # Template Rust Library
+//! # Template Deno Rust Library
 //!
-//! `flowscripter_template_rust_library` provides a sample function to be called from Deno FFI.
+//! `flowscripter_template_deno_rust_library` provides a sample function to be called from Deno FFI.
 
 use deno_bindgen::deno_bindgen;
 use flowscripter_template_rust_library::adder;
@@ -11,7 +11,7 @@ use flowscripter_template_rust_library::adder;
 /// ```
 /// let arg1 = 2;
 /// let arg2 = 2;
-/// let answer = flowscripter_template_rust_library::add(arg1, arg2);
+/// let answer = flowscripter_template_deno_rust_library::add(arg1, arg2);
 ///
 /// assert_eq!(4, answer);
 /// ```
