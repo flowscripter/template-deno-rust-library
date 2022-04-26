@@ -23,9 +23,9 @@ dependencies = [
 
 [[package]]
 name = "deno_bindgen"
-version = "0.4.1"
+version = "0.5.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "59763542e100db4ebee1addaec59fe93c61a4b97fee7c1e7eb5b6c447d85998c"
+checksum = "55cd81c38089a496ddd2c834dc508b3fe866ddc004e7fecdfee8c88e5fc293bb"
 dependencies = [
  "deno_bindgen_macro",
  "serde",
@@ -34,9 +34,9 @@ dependencies = [
 
 [[package]]
 name = "deno_bindgen_macro"
-version = "0.4.1"
+version = "0.5.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "b373132c0627b56ddce31c083223e014bf39a71fd7a21a7bb9af409f54d2b650"
+checksum = "012326b255b690220d47e3fcb1b87f413a941eb06151018581a6cbdfa8ef6b5d"
 dependencies = [
  "Inflector",
  "proc-macro2",
@@ -48,7 +48,7 @@ dependencies = [
 
 [[package]]
 name = "flowscripter_template_deno_rust_library"
-version = "0.1.0"
+version = "1.0.2"
 dependencies = [
  "deno_bindgen",
  "flowscripter_template_rust_library",
@@ -81,27 +81,27 @@ checksum = "308cc39be01b73d0d18f82a0e7b2a3df85245f84af96fdddc5d202d27e47b86a"
 
 [[package]]
 name = "proc-macro2"
-version = "1.0.36"
+version = "1.0.37"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "c7342d5883fbccae1cc37a2353b09c87c9b0f3afd73f5fb9bba687a1f733b029"
+checksum = "ec757218438d5fda206afc041538b2f6d889286160d649a86a24d37e1235afd1"
 dependencies = [
  "unicode-xid",
 ]
 
 [[package]]
 name = "quote"
-version = "1.0.15"
+version = "1.0.18"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "864d3e96a899863136fc6e99f3d7cae289dafe43bf2c5ac19b70df7210c0a145"
+checksum = "a1feb54ed693b93a84e14094943b84b7c4eae204c512b7ccb95ab0c66d278ad1"
 dependencies = [
  "proc-macro2",
 ]
 
 [[package]]
 name = "regex"
-version = "1.5.4"
+version = "1.5.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d07a8629359eb56f1e2fb1652bb04212c072a87ba68546a04065d525673ac461"
+checksum = "1a11647b6b25ff05a515cb92c365cec08801e83423a235b51e231e1808747286"
 dependencies = [
  "aho-corasick",
  "memchr",
@@ -153,9 +153,9 @@ dependencies = [
 
 [[package]]
 name = "syn"
-version = "1.0.86"
+version = "1.0.91"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8a65b3f4ffa0092e9887669db0eae07941f023991ab58ea44da8fe8e2d511c6b"
+checksum = "b683b2b825c8eef438b77c36a06dc262294da3d5a5813fac20da149241dcd44d"
 dependencies = [
  "proc-macro2",
  "quote",
