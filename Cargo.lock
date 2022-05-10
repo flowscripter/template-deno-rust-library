@@ -48,7 +48,7 @@ dependencies = [
 
 [[package]]
 name = "flowscripter_template_deno_rust_library"
-version = "1.0.4"
+version = "1.0.6"
 dependencies = [
  "deno_bindgen",
  "flowscripter_template_rust_library",
