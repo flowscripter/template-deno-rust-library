@@ -57,9 +57,9 @@ dependencies = [
 
 [[package]]
 name = "flowscripter_template_rust_library"
-version = "1.1.0"
+version = "1.1.3"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8b8841ac1dc9f3b0ad486453b509a0355dc18caf8beeff866a904a45a5a6bef2"
+checksum = "e27b36e3a3a5f5d3bbb046e377f2925b67f0281c654432b68e60630b77ec613b"
 
 [[package]]
 name = "itoa"
@@ -153,9 +153,9 @@ dependencies = [
 
 [[package]]
 name = "syn"
-version = "1.0.92"
+version = "1.0.93"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7ff7c592601f11445996a06f8ad0c27f094a58857c2f89e97974ab9235b92c52"
+checksum = "04066589568b72ec65f42d65a1a52436e954b168773148893c020269563decf2"
 dependencies = [
  "proc-macro2",
  "quote",
