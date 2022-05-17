@@ -18,12 +18,8 @@ function readPointer(v: any): Uint8Array {
 }
 const opts = {
   name: "flowscripter_template_deno_rust_library",
-  url:
-    (new URL(
-      "https://github.com/flowscripter/template-deno-rust-library/releases/download/v1.0.7",
-      import.meta.url,
-    )).toString(),
-  policy: undefined,
+  url: (new URL("../target/debug", import.meta.url)).toString(),
+  policy: CachePolicy.NONE,
 }
 const _lib = await prepare(opts, {
   add: { parameters: ["i32", "i32"], result: "i32", nonblocking: false },
