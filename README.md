@@ -34,12 +34,6 @@ PNG image generated from `images/uml_diagram.mermaid`:
 
 ![UML Diagram](images/uml_diagram.png "UML Diagram")
 
-### API
-
-Link to auto-generated API docs for the library:
-
-[API Documentation](https://docs.rs/crate/flowscripter_template_deno_rust_library/latest)
-
 ## License
 
 MIT © Flowscripter
