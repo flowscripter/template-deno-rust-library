@@ -8,12 +8,20 @@
 
 > Project template for a Rust library with Deno FFI bindings.
 
-## Usage
+## Project Template Usage
 
 1. Use as a
    [template](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)
    to create a new repository.
 2. Update links and references in `README.md`.
+
+## Deno Module Usage
+
+```typescript
+import { world } from "https://raw.githubusercontent.com/flowscripter/template-deno-rust-library/v1.0.7/mod.ts";
+
+world();
+```
 
 ## Development
 
@@ -32,7 +40,7 @@ Lint: `cargo fmt && deno fmt`
 
 PNG image generated from `images/uml_diagram.mermaid`:
 
-![UML Diagram](images/uml_diagram.png "UML Diagram")
+![UML Diagram](https://raw.githubusercontent.com/flowscripter/template-deno-rust-library/main/images/uml_diagram.png "UML Diagram")
 
 ## License
 
