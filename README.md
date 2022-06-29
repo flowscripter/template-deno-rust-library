@@ -3,7 +3,8 @@
 [![version](https://img.shields.io/github/v/release/flowscripter/template-deno-rust-library?sort=semver)](https://github.com/flowscripter/template-deno-rust-library/releases)
 [![build](https://img.shields.io/github/workflow/status/flowscripter/template-deno-rust-library/release-deno-rust-library)](https://github.com/flowscripter/template-deno-rust-library/actions/workflows/release-deno-rust-library.yml)
 [![coverage](https://codecov.io/gh/flowscripter/template-deno-rust-library/branch/main/graph/badge.svg?token=EMFT2938ZF)](https://codecov.io/gh/flowscripter/template-deno-rust-library)
-[![dependencies](https://deps.rs/repo/github/flowscripter/template-deno-rust-library/status.svg)](https://deps.rs/crate/flowscripter_template_deno_rust_library)
+[![rust dependencies](https://deps.rs/repo/github/flowscripter/template-deno-rust-library/status.svg)](https://deps.rs/crate/flowscripter_template_deno_rust_library)
+[![deno dependencies](https://img.shields.io/endpoint?url=https%3A%2F%2Fdeno-visualizer.danopia.net%2Fshields%2Fupdates%2Fhttps%2Fraw.githubusercontent.com%2Fflowscripter%2Ftemplate-deno-rust-library%2Fmain%2Fmod.ts)](https://github.com/flowscripter/template-deno-rust-library/blob/main/deps.ts)
 [![license: MIT](https://img.shields.io/github/license/flowscripter/template-deno-rust-library)](https://github.com/flowscripter/template-deno-rust-library/blob/main/LICENSE)
 
 > Project template for a Rust library with Deno FFI bindings.
