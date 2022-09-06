@@ -57,9 +57,9 @@ dependencies = [
 
 [[package]]
 name = "flowscripter_template_rust_library"
-version = "1.1.4"
+version = "1.1.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "44993292b43e53c793b961c14aa48c3a6d4a48467bc839ebac1fe55e64ef7dc7"
+checksum = "5731ad924b2d67d02a3afc2ccd3133b656ea851fa7ea402562d5bd57bdfdf062"
 
 [[package]]
 name = "itoa"
