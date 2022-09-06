@@ -1,4 +1,4 @@
-name: lint-rust
+name: format-rust-code
 on:
   pull_request:
     branches: [main]
@@ -8,5 +8,5 @@ jobs:
     steps:
       - name: Checkout source
         uses: actions/checkout@v2
-      - name: Lint source
+      - name: Format source
         run: cargo fmt -- --check
