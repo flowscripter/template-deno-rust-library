@@ -20,10 +20,7 @@ function readPointer(v: any): Uint8Array {
   return buf
 }
 
-const url = new URL(
-  "https://github.com/flowscripter/template-deno-rust-library/releases/download/v1.0.9",
-  import.meta.url,
-)
+const url = new URL("../target/debug", import.meta.url)
 let uri = url.toString()
 if (!uri.endsWith("/")) uri += "/"
 
@@ -46,7 +43,7 @@ const opts = {
     windows: uri + "flowscripter_template_deno_rust_library.dll",
     linux: uri + "libflowscripter_template_deno_rust_library.so",
   },
-  policy: undefined,
+  policy: CachePolicy.NONE,
 }
 const _lib = await prepare(opts, {
   add: { parameters: ["i32", "i32"], result: "i32", nonblocking: false },
