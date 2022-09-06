@@ -12,6 +12,6 @@ exclude = [".github/", "bindings/"]
 crate-type = ["cdylib","lib"]
 
 [dependencies]
-deno_bindgen = "0.5.1"
+deno_bindgen = "0.6.0"
 serde = { version = "1.0.144", features = ["derive"] }
 flowscripter_template_rust_library = "1.1.4"
