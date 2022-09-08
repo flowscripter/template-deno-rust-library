@@ -47,3 +47,4 @@ PNG image generated from `images/uml_diagram.mermaid`:
 ## License
 
 MIT © Flowscripter
+
