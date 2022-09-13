@@ -24,7 +24,7 @@ dependencies = [
 [[package]]
 name = "deno_bindgen"
 version = "0.7.0"
-source = "git+https://github.com/vectronic/deno_bindgen#8941bb263dadbb2dde033b8f8929026264ce8c23"
+source = "git+https://github.com/vectronic/deno_bindgen?tag=0.7.0-1-temp#8941bb263dadbb2dde033b8f8929026264ce8c23"
 dependencies = [
  "deno_bindgen_macro",
  "serde",
@@ -34,7 +34,7 @@ dependencies = [
 [[package]]
 name = "deno_bindgen_macro"
 version = "0.7.0"
-source = "git+https://github.com/vectronic/deno_bindgen#8941bb263dadbb2dde033b8f8929026264ce8c23"
+source = "git+https://github.com/vectronic/deno_bindgen?tag=0.7.0-1-temp#8941bb263dadbb2dde033b8f8929026264ce8c23"
 dependencies = [
  "Inflector",
  "proc-macro2",
