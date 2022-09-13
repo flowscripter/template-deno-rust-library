@@ -12,6 +12,6 @@ exclude = [".github/", "bindings/"]
 crate-type = ["cdylib","lib"]
 
 [dependencies]
-deno_bindgen = { git = "https://github.com/vectronic/deno_bindgen" }
+deno_bindgen = { git = "https://github.com/vectronic/deno_bindgen", tag = "0.7.0-1-temp" }
 serde = { version = "1.0.144", features = ["derive"] }
 flowscripter_template_rust_library = "1.1.5"
