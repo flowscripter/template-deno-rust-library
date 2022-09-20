@@ -21,7 +21,7 @@ function readPointer(v: any): Uint8Array {
 }
 
 const url = new URL(
-  "https://github.com/flowscripter/template-deno-rust-library/releases/download/v1.0.13",
+  "https://github.com/flowscripter/template-deno-rust-library/releases/download/v1.0.14",
   import.meta.url,
 )
 let uri = url.toString()
