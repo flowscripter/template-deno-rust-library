@@ -3,3 +3,4 @@
 /.releaserc
 /node_modules/
 /coverage/
+/bindings/bindings.ts
