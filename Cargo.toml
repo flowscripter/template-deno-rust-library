@@ -13,5 +13,5 @@ crate-type = ["cdylib","lib"]
 
 [dependencies]
 deno_bindgen = "0.8.1"
-serde = { version = "1.0.171", features = ["derive"] }
+serde = { version = "1.0.173", features = ["derive"] }
 flowscripter_template_rust_library = "1.1.7"
