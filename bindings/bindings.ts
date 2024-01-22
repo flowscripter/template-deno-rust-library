@@ -43,6 +43,7 @@ const { symbols } = Deno.dlopen(
     aix: uri + "libflowscripter_template_deno_rust_library.so",
     solaris: uri + "libflowscripter_template_deno_rust_library.so",
     illumos: uri + "libflowscripter_template_deno_rust_library.so",
+    android: uri + "libflowscripter_template_deno_rust_library.so",
   }[Deno.build.os],
   {
     add: { parameters: ["i32", "i32"], result: "i32", nonblocking: false },
